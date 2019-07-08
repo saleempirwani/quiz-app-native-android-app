@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="com.example.salimsp.testyouriq.Question">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvQno"
+            android:text="Question 5/10"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTimer"
+            android:text="00:00"
+            android:textSize="25dp"
+            android:gravity="right"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQt"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:text="If two typist type 2 page in 2 minutes. How many typist can type 18 pages in 6 minutes"/>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"></View>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgpOpts">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdOp1"
+            android:textSize="20dp"
+            android:text=" 3 typist"
+            android:layout_margin="10dp"
+            android:buttonTint="@android:color/black"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdOp2"
+            android:textSize="20dp"
+            android:text=" 4 typist"
+            android:layout_margin="10dp"
+            android:buttonTint="@android:color/black"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdOp3"
+            android:textSize="20dp"
+            android:text=" 5 typist"
+            android:layout_margin="10dp"
+            android:buttonTint="@android:color/black"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNext"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:background="@color/SpScrBdg"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"/>
+</LinearLayout>

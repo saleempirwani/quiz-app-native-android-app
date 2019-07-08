@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="SpScrBdg">#FEE101</color>
+
+    <color name="LightYellow">#fced75</color>
+
+
+    <color name="Yellow">#f7e026</color>
+
+    <color name="BLACK">#030303</color>
+
+    <color name="CGreen">#007072</color>
+
+
+
+
+</resources>
